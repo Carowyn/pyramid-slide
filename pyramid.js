@@ -19,7 +19,7 @@ heightElem.oninput = function(event) {
     //console.log(height)
 
     //put value in container
-    document.getElementById("slider").innerHTML = height;
+    document.getElementById("slider").innerHTML = "&nbsp;&nbsp;" + height;
 
 // draw a pyramid with the selected height and symbol
 drawPyramid(height, symbol);

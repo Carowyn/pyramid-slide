@@ -4,18 +4,18 @@
 
 <head>
     <title>Pyramid Slide</title>
-    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <div id="title">
+    <div class="stat" id="title">
         <h1>Pyramid Slide</h1>
     </div>
 
-    <div id="build">
+    <div class="stat" id="build">
         <form id="draw-form">
-            <label>Brick Symbol:
+            <label>Brick Symbol:&nbsp;&nbsp;
                 <select id="symbol">
                     <option value="#">#</option>
                     <option value="@">@</option>
@@ -23,19 +23,29 @@
                     <option value="$">$</option>
                 </select>
             </label>
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            <label>How High?
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label>How High?&nbsp;&nbsp;
                 <input type="range" min="1" max="20" id="height"><span id="slider"></span>
             </label>
         </form>
 
     </div>
 
-    <div id="pyramid"></div>
+    <div class="dyn"><span id="pyramid"></span></div>
 
     <script src="pyramid.js"></script>
 
 </body>
+
+<footer>
+    <address>
+        <p><br>Contents written by: <a href="mailto:brittaniluce@gmail.com"><b>Brittani Luce</b></a></p>
+        <p>Written for: LaunchCode 101 -- Pyramid-Slide
+        <p>Thank you for visiting!</p>
+    </address>
+        <p>&#169;Brittani Luce, 2017
+        <br><br></p>
+</footer>
 
 </html>
 
