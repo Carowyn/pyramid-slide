@@ -2,49 +2,61 @@
 
 <html>
 
-<head>
-    <title>Pyramid Slide</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
+    <head>
+        <title>Pyramid Slide</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
 
-<body>
-    <div class="stat" id="title">
-        <h1>Pyramid Slide</h1>
-    </div>
+    <body>
+        <div class="stat" id="title">
+            <h1>Pyramid Slide</h1>
+        </div>
 
-    <div class="stat" id="build">
-        <form id="draw-form">
-            <label>Brick Symbol:&nbsp;&nbsp;
+        <div class="stat" id="build">
+            <form id="draw-form">
+                <label>Brick Symbol:&nbsp;&nbsp;
                 <select id="symbol">
-                    <option value="#">#</option>
-                    <option value="@">@</option>
-                    <option value="X">X</option>
-                    <option value="$">$</option>
+                    <option value=" # "> # </option>
+                    <option value=" @ "> @ </option>
+                    <option value=" X "> X </option>
+                    <option value=" $ "> $ </option>
+                    <option value=" || "> || </option>
+                    <option value=" + "> + </option>
+                    <option value=" O "> O </option>
                 </select>
-            </label>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <label>How High?&nbsp;&nbsp;
+            </label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label>How High?&nbsp;&nbsp;
                 <input type="range" min="1" max="20" id="height"><span id="slider"></span>
             </label>
-        </form>
+            </form>
 
-    </div>
+        </div>
 
-    <div class="dyn"><span id="pyramid"></span></div>
+        <div class="dyn"><span id="pyramid"></span></div>
 
-    <script src="pyramid.js"></script>
+        <script src="pyramid.js"></script>
 
-</body>
+    </body>
 
-<footer>
-    <address>
-        <p><br>Contents written by: <a href="mailto:brittaniluce@gmail.com"><b>Brittani Luce</b></a></p>
+    <footer>
+        <address>
+        <p><br>Contents written by: <a id="name" href="mailto:brittaniluce@gmail.com"><b>Brittani Luce</b></a></p>
         <p>Written for: LaunchCode 101 -- Pyramid-Slide
         <p>Thank you for visiting!</p>
     </address>
         <p>&#169;Brittani Luce, 2017
-        <br><br></p>
+            <br><br></p>
+    </footer>
+
+</html>
+
+
+<!--
+
+-->
+
+<br><br></p>
 </footer>
 
 </html>
