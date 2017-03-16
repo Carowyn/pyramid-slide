@@ -4,8 +4,8 @@ body {
         height: auto;
         width: auto;
         font-family: cursive;
-        background-color: #1c0000;
-        color: #44eeff;
+        background-color: #ede7e7;
+        color: #e2d5e1;
         padding-top: 30px;
 }
 
@@ -30,9 +30,9 @@ p {
     text-align: right;
     align-self: inherit;
     font-size: 1.5em;
-    padding-bottom: 50px;
-    padding-top: 15px;
-    color: #ffe118;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    color: #a13599;
     width: 91%
 }
 
@@ -40,20 +40,22 @@ p {
     text-align: center;
     font-weight: bolder;
     font-size: 1.4em;
-    padding: 15px;
-    background-color: #000000;
+    padding: 1px;
+    background-color: #a13599;
     margin: auto;
-    border-radius: 25px;
-    width: 95%;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    width: 75%;
 }
 
 .outer {
-    border-radius: 25px;
-    border: 3px solid #ffe118;
-    width: auto;
-    margin-left: 250px;
-    margin-right: 250px;
+    border-radius: 5px;
+    border: 3px solid #a13599;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
     margin-bottom: 30px;
+    background-color: #d1d1d1;
 }
 
 #build {
@@ -61,32 +63,38 @@ p {
     font-weight: bold;
     font-size: 1.1em;
     padding-top: 30px;
-    padding-bottom: 5px;
+    padding-bottom: 30px;
+    background-color: #9fa2a2;
+    border-radius: 5px;
+    color: #000000;
 }
 
 footer {
     font-size: 15px;
     font-style: italic;
-    background: rgba(128, 0, 0, .25);
+    background: rgba(161, 53, 153, .25);
     text-align: center;
-    color: #c2e2e0
+    color: #292626;
 }
 
 #name {
-    color: #2fffec;
+    color: #8f00ff;
     text-decoration: none;
+    font-weight: normal;
 }
 
 #name:hover {
-    color: #ffe118;
+    color: #a13599;
+    font-weight: bolder;
 }
 
 select {
-    border-radius: 50px;
+    border-radius: 10px;
     padding: 3px;
     text-align: center;
-    background-color: #0a0a0a;
-    color: #ffe118;
+    background-color: #dbd2eb;
+    color: #000000;
+    font-weight: bolder;
     justify-content: center;
 }
 
