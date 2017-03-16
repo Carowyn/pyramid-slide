@@ -33,7 +33,7 @@ p {
     padding-bottom: 50px;
     padding-top: 15px;
     color: #ffe118;
-    width: 73%
+    width: 91%
 }
 
 #title {
@@ -44,7 +44,16 @@ p {
     background-color: #000000;
     margin: auto;
     border-radius: 25px;
-    width: 65%;
+    width: 95%;
+}
+
+.outer {
+    border-radius: 25px;
+    border: 3px solid #ffe118;
+    width: auto;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 30px;
 }
 
 #build {
