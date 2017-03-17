@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    <div class="outer">
     <div class="stat" id="title">
         <h1>Pyramid Slide</h1>
     </div>
@@ -17,10 +18,13 @@
         <form id="draw-form">
             <label>Brick Symbol:&nbsp;&nbsp;
                 <select id="symbol">
-                    <option value="#">#</option>
-                    <option value="@">@</option>
-                    <option value="X">X</option>
-                    <option value="$">$</option>
+                    <option value=" # "> # </option>
+                    <option value=" @ "> @ </option>
+                    <option value=" X "> X </option>
+                    <option value=" $ "> $ </option>
+                    <option value=" || "> || </option>
+                    <option value=" + "> + </option>
+                    <option value=" O "> O </option>
                 </select>
             </label>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -31,7 +35,8 @@
 
     </div>
 
-    <div class="dyn"><span id="pyramid"></span></div>
+    <div class="dyn"><div id="pyramid"></div></div>
+    </div>
 
     <script src="pyramid.js"></script>
 
@@ -39,7 +44,7 @@
 
 <footer>
     <address>
-        <p><br>Contents written by: <a href="mailto:brittaniluce@gmail.com"><b>Brittani Luce</b></a></p>
+        <p><br>Contents written by: <a id="name" href="mailto:brittaniluce@gmail.com"><b>Brittani Luce</b></a></p>
         <p>Written for: LaunchCode 101 -- Pyramid-Slide
         <p>Thank you for visiting!</p>
     </address>
